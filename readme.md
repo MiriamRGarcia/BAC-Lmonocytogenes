@@ -1,6 +1,7 @@
 
-Here we provide the scripts with the model used to model time-kill curves of 
-L. monocytogenes with benzalkonium chloride the most common quaternary ammonium compound
+Here we provide the scripts with the model and data (provided by Marta L. Cabo IIM-CSIC) used 
+to simulate time-kill curves of *L. monocytogenes* with benzalkonium chloride the most common quaternary ammonium compound.
+
 The model explains and predicts the interplay between disinfectant and pathogen at 
 different initial microbial densities (inocula) and dose concentrations. 
 
@@ -8,8 +9,8 @@ different initial microbial densities (inocula) and dose concentrations.
 In order to run these scripts, users will need:
 
 - a Matlab R2015 (or later) installation, under Windows or Linux operating systems
-- the AMIGO2 toolbox available at: https://sites.google.com/site/amigo2toolbox/download 
-- Originallly the code was running in Matlab2016b and AMIGO2019
+- the AMIGO2 toolbox available at: https://sites.google.com/site/amigo2toolbox/download (Eva Balsa-Canto IIM-CSIC)
+- Originallly the code was tested in Matlab2016b and AMIGO2019
 
 
 Users need to make sure that the above AMIGO2 toolbox is fully functional before attempting to run the scripts. 
