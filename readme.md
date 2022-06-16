@@ -1,4 +1,9 @@
 
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6651604.svg)](https://doi.org/10.5281/zenodo.6651604)
+
+
 Here we provide the scripts with the model and data (provided by Marta L. Cabo IIM-CSIC) used 
 to simulate time-kill curves of *L. monocytogenes* with benzalkonium chloride the most common quaternary ammonium compound.
 
@@ -9,8 +14,8 @@ different initial microbial densities (inocula) and dose concentrations.
 In order to run these scripts, users will need:
 
 - a Matlab R2015 (or later) installation, under Windows or Linux operating systems
-- the AMIGO2 toolbox available at: https://sites.google.com/site/amigo2toolbox/download (Eva Balsa-Canto IIM-CSIC)
-- Originallly the code was tested in Matlab2016b and AMIGO2019
+- the AMIGO2 toolbox is available at: https://sites.google.com/site/amigo2toolbox/download (Eva Balsa-Canto IIM-CSIC)
+- Originally the code was tested in Matlab2016b and AMIGO2019
 
 
 Users need to make sure that the above AMIGO2 toolbox is fully functional before attempting to run the scripts. 
@@ -25,4 +30,6 @@ INSTRUCTIONS
 	* Alternatively, 
 		* edit Kinetics files (Kinetics_calibration & Kinetics_validtion')  and change line      inputs.model.input_model_type='charmodelC'; by inputs.model.input_model_type='charmodelM';
 		* To assure the optimum is achieved, increase optimization time (inputs.nlpsol.eSS.maxtime).
+
+We acknowledge the funding received from the MCIN/AEI/10.13039/501100011033 (grant RTI2018-093560-J-I00, "ERDF A way of making Europe"), from CSIC (grant 20213AT001) and Xunta de Galicia (grant GAIN IN607B 2020/03). 
         
