@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6651604.svg)](https://doi.org/10.5281/zenodo.6651604)
 
 
-Here we provide the scripts with the model and data (provided by Marta L. Cabo IIM-CSIC) used 
+Here we provide the scripts with the model and data (provided by Marta L. Cabo IIM-CSIC) used
 to simulate time-kill curves of *L. monocytogenes* with benzalkonium chloride the most common quaternary ammonium compound.
 
 The model explains and predicts the interplay between disinfectant and pathogen at 
