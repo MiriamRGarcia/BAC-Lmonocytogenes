@@ -1,15 +1,16 @@
 
-
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6651604.svg)](https://doi.org/10.5281/zenodo.6651604)
-
-
-Here we provide the scripts with the model and data (provided by Marta L. Cabo IIM-CSIC) used
-to simulate time-kill curves of *L. monocytogenes* with benzalkonium chloride the most common quaternary ammonium compound.
+Here we provide the MATLAB scripts with the model (by Míriam R. García IIM-CSIC) and data (by Marta L. Cabo IIM-CSIC) used 
+to simulate time-kill curves of *L. monocytogenes* with benzalkonium chloride, the most common quaternary ammonium compound.
 
 The model explains and predicts the interplay between disinfectant and pathogen at 
 different initial microbial densities (inocula) and dose concentrations. 
 
+## Details for simulation
+- For simulation in matlab of the model, please run the file **Main_simulate_kinetics** in Matlab
+
+
+# An older version of this code was published here
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6651604.svg)](https://doi.org/10.5281/zenodo.6651604)
 
 In order to run these scripts, users will need:
 
@@ -31,5 +32,4 @@ INSTRUCTIONS
 		* edit Kinetics files (Kinetics_calibration & Kinetics_validtion')  and change line      inputs.model.input_model_type='charmodelC'; by inputs.model.input_model_type='charmodelM';
 		* To assure the optimum is achieved, increase optimization time (inputs.nlpsol.eSS.maxtime).
 
-We acknowledge the funding received from the MCIN/AEI/10.13039/501100011033 (grant RTI2018-093560-J-I00, "ERDF A way of making Europe"), from CSIC (grant 20213AT001) and Xunta de Galicia (grant GAIN IN607B 2020/03). 
-        
+We acknowledge the funding received from the MCIN/AEI/10.13039/501100011033 (grant RTI2018-093560-J-I00, "ERDF A way of making Europe"), from CSIC (grant 20213AT001) and Xunta de Galicia (grant GAIN IN607B 2020/03).
