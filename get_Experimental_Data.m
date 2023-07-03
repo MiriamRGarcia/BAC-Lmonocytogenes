@@ -34,14 +34,14 @@ j=5;
 data_N{j}=([9.00e6 0 0 0 0])/df;
 data_B{j}=[52.78 40.28 40.36 40.15 40.1];
 t_s{j}=[0 1 2 5 10];
-infor{j}='5th:60ppm,6log';
+infor{j}='Validation: 60ppm,6log';
 
 j=6;
 %6th:60ppm,6log same experiment for validation than 5 but calucating initN \in data_N{5}(1) \pm 0.5 logs
 data_N{j}=([9.00e6 0 0 0 0])/df;
 data_B{j}=[52.78 40.28 40.36 40.15 40.1];
 t_s{j}=[0 1 2 5 10];
-infor{j}='5th:60ppm,6log';
+infor{j}='Validation:60ppm,6log';
 
 %Loop through all experiments to return a matrix
 cont=0;
