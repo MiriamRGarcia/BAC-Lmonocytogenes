@@ -47,7 +47,7 @@ for ii=1:4
 end
 mylegend{5}='Validation:60ppm,6log';
 mylegend{6}='Validation estimating the inoculum';
-for ii=7:10
+for ii=7:11
     mylegend{ii}=['Data ',infor{ii-6}];
 end
 legend(mylegend,'Position',[0.613942594889946 0.617016630744266 0.222319853850534 0.273622039421963])
